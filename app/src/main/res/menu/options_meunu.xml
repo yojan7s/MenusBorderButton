@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itm_options"
+        android:title="@string/itm_str_options"
+        android:icon="@drawable/twitter"
+        app:showAsAction="ifRoom">
+
+    </item>
+    <item
+        android:id="@+id/itm_close"
+        android:title="@string/itm_str_close"
+        android:icon="@drawable/twitter"></item>
+
+
+</menu>
