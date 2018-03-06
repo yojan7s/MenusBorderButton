@@ -12,7 +12,13 @@
         android:layout_height="wrap_content"
         android:text="Hola Yojan"
         android:theme="@style/RaisedButtonDark"
+        />
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/poquebola"
+        android:theme="@style/RaisedButtonDark"
         />
 
 </LinearLayout>
