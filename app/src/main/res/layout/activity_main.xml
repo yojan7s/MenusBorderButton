@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,7 +8,10 @@
     android:orientation="vertical"
     tools:context="com.example.aula7.menusborderbutton.MainActivity">
 
-    <Button
+<!--
+Botones
+
+     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hola Yojan"
@@ -29,4 +33,12 @@
         android:drawablePadding="5dp"
         />
 
-</LinearLayout>
+        -->
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/twitter"
+        />
+
+</android.support.design.widget.CoordinatorLayout>
