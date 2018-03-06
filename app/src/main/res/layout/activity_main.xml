@@ -17,8 +17,16 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/poquebola"
+        android:src="@drawable/twitter"
         android:theme="@style/RaisedButtonDark"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/RaisedButtonDark"
+        android:drawableLeft="@drawable/twitter"
+        android:text="Guardar"
+        android:drawablePadding="5dp"
         />
 
 </LinearLayout>
